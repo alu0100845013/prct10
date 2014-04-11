@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.2)  11 APR 2014 10:22
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.2)  11 APR 2014 10:35
 entering extended mode
  %&-line parsing enabled.
 **prct10.tex
@@ -358,7 +358,11 @@ Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
 \bslash@cnt=\count104
 \wrong@table=\toks19
 \c@CodelineNo=\count105
-) (./prct10.aux)
+) (./prct10.aux
+
+LaTeX Warning: Label `hist' multiply defined.
+
+)
 \openout1 = `prct10.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -386,40 +390,26 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 24.
 File: imagen1.eps Graphic file (type eps)
-
-<imagen1.eps>
-! Undefined control sequence.
-<recently read> \f 
-                   
-l.50 $\sum_{i=1}^{n} f(xi)$ con $\f
-                                   (x)=4/(1+x^2)$ y $\xi=(i-1/2/n) $ , para ...
-
-? 
-! Interruption.
-l.50 $\sum_{i=1}^{n} f(xi)$ con $\f
-                                   (x)=4/(1+x^2)$ y $\xi=(i-1/2/n) $ , para ...
-
-? 
-[1
+ <imagen1.eps> [1
 
 ]
-Underfull \hbox (badness 7081) in paragraph at lines 79--80
+Underfull \hbox (badness 7081) in paragraph at lines 78--79
 []\OT1/cmr/m/n/10 Historia n^^Sumero PI. http://www.monografias.com/trabajos57/
 calculo-
  []
 
 [2] (./prct10.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  1680 strings out of 495062
  19882 string characters out of 1182645
- 80017 words of memory out of 3000000
+ 78017 words of memory out of 3000000
  4874 multiletter control sequences out of 15000+50000
  9155 words of font info for 32 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  25i,7n,27p,209b,204s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on prct10.dvi (2 pages, 5684 bytes).
+Output written on prct10.dvi (2 pages, 5292 bytes).
